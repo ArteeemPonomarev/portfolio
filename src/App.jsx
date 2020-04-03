@@ -4,7 +4,9 @@ import Header from './Header';
 import Main from './Main';
 import Skills from './Skills';
 import Slogan from './Slogan';
-import Projects from './Projects'
+import Projects from './Projects';
+import Contacts from './Contacts';
+import Footer from './Footer'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Skills />
       <Projects />
       <Slogan />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
