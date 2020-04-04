@@ -1,4 +1,25 @@
 .main {
-  background-color: #f75b5b;
+  background-color: #ff8585ce;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main .container {
+  width: 80%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+
+}
+.photo {
+  height: 400px;
+  width: 310px;
+  background-color: rgb(180, 175, 175);
+
 }
