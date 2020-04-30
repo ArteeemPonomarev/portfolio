@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgb(37, 255, 121);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.socialNetBtns {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}

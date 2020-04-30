@@ -1,0 +1,17 @@
+.slogan {
+  background-color: #92fa3d;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:20px;
+  margin-bottom: 20px;
+}

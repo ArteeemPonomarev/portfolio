@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Header.module.css';
-import Navmenu from './Navmenu';
+import Navmenu from '../Navmenu/Navmenu';
 
 function Header() {
   return (
