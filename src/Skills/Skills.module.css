@@ -1,15 +1,15 @@
 .skills {
   background-color: #f4f75b;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
 }
 
-.skills .container {
+.container {
   width: 80%;
   border: 1px solid;
-  
 }
+
 .title {
   height: 180px;
   border: 1px solid;
@@ -22,30 +22,13 @@
   border: 1px solid;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.skill_item {
-  height:430px;
-  width: 280px;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+@media (max-width: 700px) {
+  .skills_list {
+    justify-content: center;
+  }
 }
-.skill_item_image {
-  height: 110px;
-  width: 110px;
-  margin-bottom: 20px;
-  background-color: rgb(209, 201, 201);
-}
-span {
-  font-size: 25px;
-}
-.technology_name{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.description {
-  text-align:center;
-}
+
 

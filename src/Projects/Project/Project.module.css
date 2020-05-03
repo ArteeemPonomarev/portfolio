@@ -1,0 +1,21 @@
+.project__item_img{
+    background-color: #c4c4c4;
+    max-width: 420px;
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects__item_btn {
+    height: 40px;
+    width: 100px;
+}
+
+.project__item_title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.project_item_description {
+    max-width: 420px;
+}

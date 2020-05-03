@@ -1,43 +1,26 @@
 import React from 'react';
 import style from './Skills.module.css'
+import Skill from "./Skill/Skill";
 
-function Skills() {
-  return (
-    <div className={style.skills}>
-      <div className={style.container}>
-        <div className={style.title}>
-          My skills
+const Skills = () => {
+    return (
+        <div className={style.skills}>
+            <div className={style.container}>
+                <div className={style.title}>
+                    My skills
+                </div>
+
+                <div className={style.skills_list}>
+                    <Skill title={'React'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, odit!'}/>
+                    <Skill title={'HTML'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, odit!'}/>
+                    <Skill title={'CSS'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, odit!'}/></div>
+
+            </div>
         </div>
-        <div className={style.skills_list}>
-          <div className={style.skill_item}>
-            <div className={style.skill_item_image}>
-            </div>
-            <div className={style.technology_name}>React</div>
-            <div className={style.description}>
-              <span>Подробное описание навыка</span>
-            </div>
-          </div>
-          <div className={style.skill_item}>
-            <div className={style.skill_item_image}>
-            </div>
-            <div className={style.technology_name}>React</div>
-            <div className={style.description}>
-              <span>Подробное описание навыка</span>
-            </div>
-          </div>
-          <div className={style.skill_item}>
-            <div className={style.skill_item_image}>
-            </div>
-            <div className={style.technology_name}>React</div>
-            <div className={style.description}>
-              <span>Подробное описание навыка</span>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-    </div>
-  );
+    );
 }
 
 export default Skills;

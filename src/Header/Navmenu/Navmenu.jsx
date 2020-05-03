@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Navmenu.module.css'
 
-function Navmenu() {
+const Navmenu = () => {
   return (
     <div className={style.nav}>
       <a href="" className={style.link}>Главная</a>

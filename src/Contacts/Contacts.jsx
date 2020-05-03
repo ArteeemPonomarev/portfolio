@@ -9,8 +9,8 @@ function Contacts() {
         Контакты
       </div>
       <form className={style.contactsForm}>
-        <div><input type="text" className={style.inp} /></div>
-        <div><input type="text" className={style.inp} /></div>
+        <input type="text" className={style.inp} />
+        <input type="text" className={style.inp} />
         <div>
           <textarea className={style.contactsMess}>
           Введите сообщение
